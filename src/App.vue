@@ -34,7 +34,6 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  background-color: red;
   margin: 0px;
   padding:0px;
   height: 100vh;
@@ -46,6 +45,7 @@ export default {
   color: orange;
   text-align: center;
   justify-content: center;
+  
 }
 .landing_page {
   background: linear-gradient(to bottom right, #006666 60%, #009999 86%);
@@ -53,6 +53,7 @@ export default {
   margin: 0px;
   width:100vw;
   padding-bottom: 3vh;
+  height:100%;
 }
 .prod_of {
   margin-top: 5vh;
@@ -64,9 +65,15 @@ export default {
   font-size: 1.4em;
   text-shadow: 7px 0px 24px rgba(65,210,135,0.9);
 }
+.bank-logo
+{
+  border-radius: 10em;
+  width:100%;
+}
 .bank-logo img
 {
   border-radius: 10em;
+
 }
 .ahbs-link,
 .ahbs-link:hover,

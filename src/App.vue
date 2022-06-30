@@ -53,17 +53,20 @@ export default {
   margin: 0px;
   width:100vw;
   padding-bottom: 3vh;
-  height:100%;
+  height:100vh;
 }
 .prod_of {
-  margin-top: 5vh;
+  margin-top: 2vh;
   color: white;
   font-size: 1em;
+  margin:0px;
 }
 .bank_name {
   color: darkgray;
   font-size: 1.4em;
   text-shadow: 7px 0px 24px rgba(65,210,135,0.9);
+  margin:0px;
+  padding:0px;
 }
 .bank-logo
 {

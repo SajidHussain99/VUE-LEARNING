@@ -37,7 +37,7 @@ console.log("I am inside landing page")
 
 <!-- component styling  -->
 
-<style>
+<style scoped>
 .wel_msg {
   margin-top: 7vh;
   color: orange;

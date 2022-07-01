@@ -1,20 +1,21 @@
 <template>
   <div id="app">
-    <h1>Hello</h1>
-    <!-- <LandingPage />
-    <HelloWorld msg="hello world" /> -->
+    <!-- <LandingPage /> -->
+    <MainMenu />
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue';
 import LandingPage from './components/LandingPage.vue';
+import MainMenu from './components/MainMenu.vue';
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
     LandingPage,
+    MainMenu,
   },
 };
 </script>
@@ -25,9 +26,8 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  margin: 0px;
   padding: 0px;
-  height: 100vh;
-  width: 100vw;
+  margin: 0px;
+  width: 100%;
 }
 </style>

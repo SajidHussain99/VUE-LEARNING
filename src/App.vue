@@ -2,9 +2,8 @@
   <div id="app">
     <!-- <LandingPage /> -->
     <!-- <MainMenu /> -->
-    <button @click="awesome = !awesome">Toggle</button>
-    <h1 v-if="awesome">Vue is awesome!</h1>
-    <h1 v-else>Oh no 😢</h1>
+    <HelloWorld />
+
   </div>
 </template>
 
@@ -20,6 +19,11 @@ export default {
     LandingPage,
     MainMenu,
   },
+  data() {
+  return {
+    awesome: true,
+  }
+  }
 };
 </script>
 
